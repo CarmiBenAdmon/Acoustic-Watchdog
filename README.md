@@ -2,6 +2,10 @@
 
 Sound classification on an ESP32 that controls a smart light. A shout turns the light on, a clap turns it off, and everything else is ignored. The classification runs on the microcontroller itself, with no PC or cloud inference.
 
+
+https://github.com/user-attachments/assets/37b64ca5-4ea3-477a-9f45-d3adf5c5d8e0
+
+
 ## How it works
 
 1. **Sampling** – An analog microphone is sampled by the ESP32 ADC at 16 kHz. Each frame is 256 samples (16 ms).  
